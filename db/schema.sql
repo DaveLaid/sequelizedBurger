@@ -1,7 +1,7 @@
 
-CREATE DATABASE burgers_db;
+CREATE DATABASE sequelizedBurgers_db;
 
-USE burgers_db;
+USE sequelizedBurgers_db;
 
 SELECT * FROM burgers;
 

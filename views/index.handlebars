@@ -1,4 +1,4 @@
-<h1>Eat Da Burger!</h1>
+<h1>Eat Da Burger 2 - The Sequelized!</h1>
 
 <img src="/assets/img/burger.png" alt="Burger" width="200">
 
@@ -8,6 +8,7 @@
 
       <label for="burg">Burger Name:</label>
       <input type="text" id="burg" name="burger_name">
+      <input type="hidden" name="devoured" value="false">
 
     <button type="submit">Add Burger</button>
   </form>
@@ -18,7 +19,7 @@
 <div class="eatBurg">
   <h2>Would you like to devour this burger?</h2>
   <ol>
-    {{#each burgers}}
+    {{#each data}}
       {{#unless this.devoured}}
         <li>
           {{this.burger_name}}
@@ -39,7 +40,7 @@
 <div class="digBurg">
   <h2>List of devoured burgers:</h2>
   <ul>
-    {{#each burgers}}
+    {{#each data}}
       {{#if this.devoured}}
         <li>
           {{this.burger_name}}
