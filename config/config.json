@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "e056u6pg2hh093ip",
-    "password": "lmddkrxym8l2kwbl",
+    "username": "u33x9ej08fqblsj5",
+    "password": "yo5qy3huac9ito39",
     "database": "sequelizedBurgers_db_production",
-    "host": "iwqrvsv8e5fz4uni.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "host": "ipobfcpvprjpmdo9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "JawsDB MySQL"
   }
 }
